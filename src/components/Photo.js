@@ -1,9 +1,10 @@
 import React from 'react'
-function Photo() {
+
+function Photo({img}) {
 
     return (
         <div className="Photo">
-            <img src='https://placekitten.com/200/300' alt="author" />
+            <img src={img} alt="author" />
         </div>
     )
 }
