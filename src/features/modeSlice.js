@@ -27,12 +27,10 @@ const modeSlice = createSlice({
   initialState,
   reducers: {
     toggleDarkMode: (state) => {
-        console.log('Dark Mode')
-        return mode1
+      return mode1
     },
     toggleLightMode: (state) => {
-        console.log('Light Mode')
-        return mode2
+      return mode2
     }
   }
 });
